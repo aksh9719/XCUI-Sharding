@@ -1,0 +1,467 @@
+{"level":"debug","time":"2023-08-07T19:41:01.745+0530","caller":"cmd/bin.go:160","msg":"HyperExecute cli version: 0.2.49"}
+{"level":"warn","time":"2023-08-07T19:41:01.746+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T19:41:01.746+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T19:41:09.375+0530","caller":"core/lifecycle.go:105","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"info","time":"2023-08-07T19:41:09.375+0530","caller":"updater/updater.go:64","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2023-08-07T19:41:09.376+0530","caller":"updater/updater.go:65","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/windows/hyperexecute.exe"}
+{"level":"debug","time":"2023-08-07T19:41:12.517+0530","caller":"updater/updater.go:85","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2023-08-07T19:41:12.521+0530","caller":"updater/updater.go:86","msg":"Please run it again "}
+{"level":"info","time":"2023-08-07T19:41:12.521+0530","caller":"core/lifecycle.go:116","msg":"Update successfully installed. Please restart the binary"}
+{"level":"debug","time":"2023-08-07T19:43:02.391+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T19:43:02.392+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T19:43:02.392+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T19:43:03.630+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T19:43:03.630+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T19:43:03.630+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T19:43:03.630+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"error","time":"2023-08-07T19:43:03.639+0530","caller":"yamlconfigmanager/setup.go:121","msg":"2023-08-07T19:43:01+05:30    error    \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: line 35: did not find expected ',' or ']'"}
+{"level":"error","time":"2023-08-07T19:43:03.639+0530","caller":"core/lifecycle.go:112","msg":"2023-08-07T19:43:01+05:30    error    \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: line 35: did not find expected ',' or ']'    Error while loading hyperexecute configuration file"}
+{"level":"debug","time":"2023-08-07T19:43:03.640+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: line 35: did not find expected ',' or ']'"}
+{"level":"debug","time":"2023-08-07T19:51:51.686+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T19:51:51.687+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T19:51:51.687+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T19:51:53.574+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T19:51:53.575+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T19:51:53.575+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T19:51:53.575+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T19:51:54.426+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T19:51:54.426+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"error","time":"2023-08-07T19:51:54.427+0530","caller":"core/lifecycle.go:112","msg":"2023-08-07T19:51:50+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: TestSuiteAppPath or TestSuiteAppId is required in case of real devices    Error while loading hyperexecute configuration file"}
+{"level":"debug","time":"2023-08-07T19:51:54.428+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: TestSuiteAppPath or TestSuiteAppId is required in case of real devices"}
+{"level":"debug","time":"2023-08-07T19:55:08.525+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T19:55:08.527+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T19:55:08.527+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T19:55:10.361+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T19:55:10.361+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T19:55:10.361+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T19:55:10.361+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T19:55:11.181+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T19:55:11.181+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"error","time":"2023-08-07T19:55:11.181+0530","caller":"core/lifecycle.go:112","msg":"2023-08-07T19:55:07+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Invalid Strategy provided for sharding    Error while loading hyperexecute configuration file"}
+{"level":"debug","time":"2023-08-07T19:55:11.182+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Invalid Strategy provided for sharding"}
+{"level":"debug","time":"2023-08-07T19:56:30.268+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T19:56:30.269+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T19:56:30.270+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T19:56:32.188+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T19:56:32.189+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T19:56:32.189+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T19:56:32.189+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"error","time":"2023-08-07T19:56:32.190+0530","caller":"yamlconfigmanager/setup.go:121","msg":"2023-08-07T19:56:29+05:30    error    \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: line 35: did not find expected ',' or ']'"}
+{"level":"error","time":"2023-08-07T19:56:32.190+0530","caller":"core/lifecycle.go:112","msg":"2023-08-07T19:56:29+05:30    error    \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: line 35: did not find expected ',' or ']'    Error while loading hyperexecute configuration file"}
+{"level":"debug","time":"2023-08-07T19:56:32.190+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::PAR::HT_YAML\u001b[0m     Unable to parse hyperexecute yaml. yaml: line 35: did not find expected ',' or ']'"}
+{"level":"debug","time":"2023-08-07T19:57:00.596+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T19:57:00.598+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T19:57:00.599+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T19:57:01.207+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T19:57:01.207+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T19:57:01.208+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T19:57:01.208+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T19:57:02.625+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T19:57:02.626+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"error","time":"2023-08-07T19:57:02.626+0530","caller":"core/lifecycle.go:112","msg":"2023-08-07T19:56:59+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Invalid Strategy provided for sharding    Error while loading hyperexecute configuration file"}
+{"level":"debug","time":"2023-08-07T19:57:02.626+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Invalid Strategy provided for sharding"}
+{"level":"debug","time":"2023-08-07T19:58:17.808+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T19:58:17.809+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T19:58:17.810+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T19:58:19.708+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T19:58:19.708+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T19:58:19.708+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T19:58:19.709+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T19:58:20.528+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T19:58:20.528+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"error","time":"2023-08-07T19:58:20.528+0530","caller":"core/lifecycle.go:112","msg":"2023-08-07T19:58:16+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Invalid Strategy provided for sharding    Error while loading hyperexecute configuration file"}
+{"level":"debug","time":"2023-08-07T19:58:20.529+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Invalid Strategy provided for sharding"}
+{"level":"debug","time":"2023-08-07T20:01:47.538+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T20:01:47.539+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T20:01:47.540+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T20:01:48.814+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T20:01:48.814+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T20:01:48.814+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:01:48.814+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:01:49.661+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T20:01:49.661+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"error","time":"2023-08-07T20:01:49.661+0530","caller":"core/lifecycle.go:112","msg":"2023-08-07T20:01:46+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Invalid Strategy provided for sharding    Error while loading hyperexecute configuration file"}
+{"level":"debug","time":"2023-08-07T20:01:49.661+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Invalid Strategy provided for sharding"}
+{"level":"debug","time":"2023-08-07T20:02:37.710+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T20:02:37.712+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T20:02:37.713+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T20:02:39.043+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T20:02:39.043+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T20:02:39.043+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:02:39.044+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:02:39.849+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T20:02:39.849+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"error","time":"2023-08-07T20:02:39.850+0530","caller":"core/lifecycle.go:112","msg":"2023-08-07T20:02:36+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Invalid Strategy provided for sharding    Error while loading hyperexecute configuration file"}
+{"level":"debug","time":"2023-08-07T20:02:39.850+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Invalid Strategy provided for sharding"}
+{"level":"debug","time":"2023-08-07T20:03:00.349+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T20:03:00.351+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T20:03:00.351+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T20:03:01.610+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T20:03:01.611+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T20:03:01.611+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:03:01.612+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:03:02.435+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T20:03:02.435+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-07T20:03:02.436+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-07T20:03:02.436+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:03:02.436+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:03:02.436+0530","caller":"models/HypertestYamlConfig.go:343","msg":"Parallelism:    \u001b[36m 2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:03:02.436+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:03:02.436+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:03:02.437+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-07T20:03:02.437+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:03:02.437+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:03:02.437+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:03:02.437+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-07T20:03:02.437+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:03:02.437+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-07T20:03:02.437+0530","caller":"xcui/xcui.go:139","msg":"\nUsing testSuite app with unique id - APP10160571901691418245732242"}
+{"level":"info","time":"2023-08-07T20:03:11.115+0530","caller":"xcui/xcui.go:116","msg":"\nUnique Id for App - lt://APP10160362161691418792291141"}
+{"level":"info","time":"2023-08-07T20:03:29.237+0530","caller":"xcui/xcui.go:356","msg":"Skipping undiscovered class \"LambdaUiKitIOSTests\" in shard Shard1"}
+{"level":"info","time":"2023-08-07T20:03:29.237+0530","caller":"xcui/xcui.go:363","msg":"Skipping shard with zero valid tests with name Shard1"}
+{"level":"info","time":"2023-08-07T20:03:29.237+0530","caller":"xcui/xcui.go:356","msg":"Skipping undiscovered class \"LambdaUiKitIOSTests\" in shard Shard2"}
+{"level":"info","time":"2023-08-07T20:03:29.237+0530","caller":"xcui/xcui.go:363","msg":"Skipping shard with zero valid tests with name Shard2"}
+{"level":"error","time":"2023-08-07T20:03:29.237+0530","caller":"core/lifecycle.go:219","msg":"2023-08-07T20:02:59+05:30    error    no shard found with valid tests - Error doing test discovery."}
+{"level":"debug","time":"2023-08-07T20:03:29.238+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error no shard found with valid tests"}
+{"level":"debug","time":"2023-08-07T20:21:05.372+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T20:21:05.380+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T20:21:05.380+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T20:21:10.284+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T20:21:10.285+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T20:21:10.285+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:21:10.286+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:21:11.523+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T20:21:11.524+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-07T20:21:11.525+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-07T20:21:11.525+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:21:11.527+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:21:11.527+0530","caller":"models/HypertestYamlConfig.go:343","msg":"Parallelism:    \u001b[36m 2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:21:11.527+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:21:11.527+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:21:11.527+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-07T20:21:11.528+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:21:11.528+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:21:11.528+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:21:11.528+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-07T20:21:11.528+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:21:11.529+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-07T20:21:11.531+0530","caller":"xcui/xcui.go:139","msg":"\nUsing testSuite app with unique id - APP10160571901691418245732242"}
+{"level":"info","time":"2023-08-07T20:21:18.650+0530","caller":"xcui/xcui.go:116","msg":"\nUnique Id for App - lt://APP10160571901691419879830452"}
+{"level":"debug","time":"2023-08-07T20:21:29.555+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 73350436-48e0-4267-a951-20d5bf0a7ecb"}
+{"level":"debug","time":"2023-08-07T20:21:29.555+0530","caller":"core/lifecycle.go:374","msg":"User has provided ios/xcui as test type for the job with ID 73350436-48e0-4267-a951-20d5bf0a7ecb"}
+{"level":"debug","time":"2023-08-07T20:21:29.655+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : D:\\projects\\XCUI-sharding\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:21:29.701+0530","caller":"storage/azure.go:53","msg":"Payload size: 2.10 kB"}
+{"level":"debug","time":"2023-08-07T20:21:29.728+0530","caller":"utils/azcopy.go:152","msg":"Downloading dependency binary ..................."}
+{"level":"info","time":"2023-08-07T20:21:33.638+0530","caller":"utils/azcopy.go:117","msg":"✔ Dependency binary downloaded successfully"}
+{"level":"error","time":"2023-08-07T20:21:43.595+0530","caller":"core/lifecycle.go:568","msg":"2023-08-07T20:21:04+05:30    error    ERR::DIS::RESP     Unable to dispatch job. Unexpected Error"}
+{"level":"debug","time":"2023-08-07T20:21:43.604+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error ERR::DIS::RESP     Unable to dispatch job. Unexpected Error"}
+{"level":"debug","time":"2023-08-07T20:23:14.057+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T20:23:14.058+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T20:23:14.059+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T20:23:15.899+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T20:23:15.899+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T20:23:15.899+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:23:15.900+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:23:16.715+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T20:23:16.716+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"error","time":"2023-08-07T20:23:16.716+0530","caller":"core/lifecycle.go:112","msg":"2023-08-07T20:23:13+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Values in shard mappings cannot be empty    Error while loading hyperexecute configuration file"}
+{"level":"debug","time":"2023-08-07T20:23:16.716+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Values in shard mappings cannot be empty"}
+{"level":"debug","time":"2023-08-07T20:23:50.603+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T20:23:50.604+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T20:23:50.604+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T20:23:54.017+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T20:23:54.017+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T20:23:54.018+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:23:54.018+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:23:54.851+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T20:23:54.852+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"error","time":"2023-08-07T20:23:54.852+0530","caller":"core/lifecycle.go:112","msg":"2023-08-07T20:23:49+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Values in shard mappings cannot be empty    Error while loading hyperexecute configuration file"}
+{"level":"debug","time":"2023-08-07T20:23:54.852+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Values in shard mappings cannot be empty"}
+{"level":"debug","time":"2023-08-07T20:25:28.848+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T20:25:28.850+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T20:25:28.850+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T20:25:30.844+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T20:25:30.844+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T20:25:30.844+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:25:30.844+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:25:31.681+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T20:25:31.681+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-07T20:25:31.681+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-07T20:25:31.682+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:25:31.682+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:25:31.682+0530","caller":"models/HypertestYamlConfig.go:343","msg":"Parallelism:    \u001b[36m 2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:25:31.682+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:25:31.682+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:25:31.682+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-07T20:25:31.682+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:25:31.682+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:25:31.682+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:25:31.682+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-07T20:25:31.682+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:25:31.683+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-07T20:25:31.683+0530","caller":"xcui/xcui.go:139","msg":"\nUsing testSuite app with unique id - APP10160571901691418245732242"}
+{"level":"info","time":"2023-08-07T20:25:39.886+0530","caller":"xcui/xcui.go:116","msg":"\nUnique Id for App - lt://APP10160571901691420141069403"}
+{"level":"debug","time":"2023-08-07T20:25:45.605+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 43eff300-03d2-4d35-8d75-db8c25c037c9"}
+{"level":"debug","time":"2023-08-07T20:25:45.606+0530","caller":"core/lifecycle.go:374","msg":"User has provided ios/xcui as test type for the job with ID 43eff300-03d2-4d35-8d75-db8c25c037c9"}
+{"level":"debug","time":"2023-08-07T20:25:45.606+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : D:\\projects\\XCUI-sharding\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:25:45.615+0530","caller":"storage/azure.go:53","msg":"Payload size: 2.10 kB"}
+{"level":"error","time":"2023-08-07T20:26:06.838+0530","caller":"core/lifecycle.go:568","msg":"2023-08-07T20:25:27+05:30    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-07T20:26:06.838+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-07T20:31:41.214+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T20:31:41.217+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T20:31:41.217+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T20:31:44.097+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T20:31:44.097+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T20:31:44.097+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:31:44.098+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:31:44.976+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T20:31:44.976+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-07T20:31:44.976+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-07T20:31:44.976+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:31:44.976+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:31:44.977+0530","caller":"models/HypertestYamlConfig.go:343","msg":"Parallelism:    \u001b[36m 2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:31:44.977+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:31:44.977+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:31:44.977+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-07T20:31:44.977+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:31:44.977+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:31:44.977+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:31:44.977+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-07T20:31:44.977+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:31:44.977+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-07T20:31:44.978+0530","caller":"xcui/xcui.go:139","msg":"\nUsing testSuite app with unique id - APP10160571901691418245732242"}
+{"level":"info","time":"2023-08-07T20:31:54.079+0530","caller":"xcui/xcui.go:116","msg":"\nUnique Id for App - lt://APP10160362161691420515277611"}
+{"level":"debug","time":"2023-08-07T20:32:11.964+0530","caller":"core/lifecycle.go:368","msg":"Job ID: eb5194bc-f8d5-41d6-8caa-b3a7fa9f20bb"}
+{"level":"debug","time":"2023-08-07T20:32:11.965+0530","caller":"core/lifecycle.go:374","msg":"User has provided ios/xcui as test type for the job with ID eb5194bc-f8d5-41d6-8caa-b3a7fa9f20bb"}
+{"level":"debug","time":"2023-08-07T20:32:11.967+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : D:\\projects\\XCUI-sharding\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:32:11.989+0530","caller":"storage/azure.go:53","msg":"Payload size: 2.10 kB"}
+{"level":"error","time":"2023-08-07T20:32:33.136+0530","caller":"core/lifecycle.go:568","msg":"2023-08-07T20:31:40+05:30    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-07T20:32:33.137+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-07T20:38:47.881+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T20:38:47.882+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T20:38:47.882+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T20:38:54.815+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T20:38:54.815+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T20:38:54.815+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:38:54.815+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:38:55.665+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T20:38:55.667+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-07T20:38:55.667+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-07T20:38:55.667+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:38:55.668+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:38:55.668+0530","caller":"models/HypertestYamlConfig.go:343","msg":"Parallelism:    \u001b[36m 2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:38:55.668+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:38:55.668+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:38:55.668+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-07T20:38:55.668+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:38:55.668+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:38:55.668+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:38:55.668+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-07T20:38:55.668+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:38:55.669+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-07T20:38:55.669+0530","caller":"xcui/xcui.go:139","msg":"\nUsing testSuite app with unique id - APP10160571901691418245732242"}
+{"level":"info","time":"2023-08-07T20:39:04.519+0530","caller":"xcui/xcui.go:116","msg":"\nUnique Id for App - lt://APP10160571901691420945708900"}
+{"level":"debug","time":"2023-08-07T20:39:20.947+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 35017bfe-9388-42a1-8aee-d402d6ca1e2e"}
+{"level":"debug","time":"2023-08-07T20:39:20.947+0530","caller":"core/lifecycle.go:374","msg":"User has provided ios/xcui as test type for the job with ID 35017bfe-9388-42a1-8aee-d402d6ca1e2e"}
+{"level":"debug","time":"2023-08-07T20:39:20.949+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : D:\\projects\\XCUI-sharding\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:39:20.960+0530","caller":"storage/azure.go:53","msg":"Payload size: 2.09 kB"}
+{"level":"error","time":"2023-08-07T20:39:42.051+0530","caller":"core/lifecycle.go:568","msg":"2023-08-07T20:38:47+05:30    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-07T20:39:42.052+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-07T20:41:59.044+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T20:41:59.045+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T20:41:59.045+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T20:42:06.143+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T20:42:06.143+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T20:42:06.144+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:42:06.144+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:42:06.954+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T20:42:06.955+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-07T20:42:06.955+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-07T20:42:06.955+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:42:06.955+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:42:06.955+0530","caller":"models/HypertestYamlConfig.go:343","msg":"Parallelism:    \u001b[36m 2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:42:06.956+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:42:06.957+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:42:06.957+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-07T20:42:06.957+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:42:06.958+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:42:06.958+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:42:06.958+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-07T20:42:06.958+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:42:06.959+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-07T20:42:06.960+0530","caller":"xcui/xcui.go:139","msg":"\nUsing testSuite app with unique id - APP10160571901691418245732242"}
+{"level":"info","time":"2023-08-07T20:42:14.820+0530","caller":"xcui/xcui.go:116","msg":"\nUnique Id for App - lt://APP10160571901691421136014450"}
+{"level":"debug","time":"2023-08-07T20:42:31.276+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 51f9829d-9367-49e5-81ad-4c4725f17b86"}
+{"level":"debug","time":"2023-08-07T20:42:31.276+0530","caller":"core/lifecycle.go:374","msg":"User has provided ios/xcui as test type for the job with ID 51f9829d-9367-49e5-81ad-4c4725f17b86"}
+{"level":"debug","time":"2023-08-07T20:42:31.277+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : D:\\projects\\XCUI-sharding\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:42:31.286+0530","caller":"storage/azure.go:53","msg":"Payload size: 2.08 kB"}
+{"level":"error","time":"2023-08-07T20:42:52.406+0530","caller":"core/lifecycle.go:568","msg":"2023-08-07T20:41:58+05:30    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-07T20:42:52.406+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-07T20:45:20.072+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"warn","time":"2023-08-07T20:45:20.075+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-07T20:45:20.075+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-07T20:45:21.978+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T20:45:21.978+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T20:45:21.978+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:45:21.978+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:45:22.803+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-07T20:45:22.803+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-07T20:45:22.803+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-07T20:45:22.804+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:45:22.804+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:45:22.805+0530","caller":"models/HypertestYamlConfig.go:343","msg":"Parallelism:    \u001b[36m 2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:45:22.805+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:45:22.805+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:45:22.805+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-07T20:45:22.805+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:45:22.806+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:45:22.806+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-07T20:45:22.806+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-07T20:45:22.806+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:45:22.807+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-07T20:45:22.807+0530","caller":"xcui/xcui.go:139","msg":"\nUsing testSuite app with unique id - APP10160571901691418245732242"}
+{"level":"info","time":"2023-08-07T20:45:30.415+0530","caller":"xcui/xcui.go:116","msg":"\nUnique Id for App - lt://APP10160571901691421331618355"}
+{"level":"debug","time":"2023-08-07T20:45:48.661+0530","caller":"core/lifecycle.go:368","msg":"Job ID: d7302b80-fefc-43f8-8ef3-3f7dbb8d14ef"}
+{"level":"debug","time":"2023-08-07T20:45:48.662+0530","caller":"core/lifecycle.go:374","msg":"User has provided ios/xcui as test type for the job with ID d7302b80-fefc-43f8-8ef3-3f7dbb8d14ef"}
+{"level":"debug","time":"2023-08-07T20:45:48.664+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : D:\\projects\\XCUI-sharding\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T20:45:48.675+0530","caller":"storage/azure.go:53","msg":"Payload size: 2.08 kB"}
+{"level":"error","time":"2023-08-07T20:46:09.814+0530","caller":"core/lifecycle.go:568","msg":"2023-08-07T20:45:19+05:30    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-07T20:46:09.815+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-09T12:12:43.662+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.103 Max:0.2.103} "}
+{"level":"info","time":"2023-08-09T12:12:43.671+0530","caller":"cmd/bin.go:112","msg":"Current binary version v0.2.101 is less than upstream version v0.2.103."}
+{"level":"info","time":"2023-08-09T12:12:43.672+0530","caller":"updater/updater.go:64","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2023-08-09T12:12:43.672+0530","caller":"updater/updater.go:65","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/windows/hyperexecute.exe"}
+{"level":"debug","time":"2023-08-09T12:12:48.245+0530","caller":"updater/updater.go:85","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2023-08-09T12:12:48.245+0530","caller":"updater/updater.go:86","msg":"Please run it again "}
+{"level":"info","time":"2023-08-09T12:12:48.245+0530","caller":"cmd/bin.go:120","msg":"Update successfully installed. Please restart the binary"}
+{"level":"debug","time":"2023-08-09T12:13:01.938+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.103 Max:0.2.103} "}
+{"level":"warn","time":"2023-08-09T12:13:01.944+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-09T12:13:01.945+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-09T12:13:05.840+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-09T12:13:05.841+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-09T12:13:05.842+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-09T12:13:05.843+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-09T12:13:06.761+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-09T12:13:06.762+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-09T12:13:06.762+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-09T12:13:06.763+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:13:06.763+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:13:06.764+0530","caller":"models/HypertestYamlConfig.go:343","msg":"Parallelism:    \u001b[36m 2\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:13:06.765+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:13:06.765+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:13:06.765+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-09T12:13:06.773+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:13:06.774+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:13:06.775+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:13:06.775+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-09T12:13:06.776+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-09T12:13:06.777+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-09T12:13:06.778+0530","caller":"xcui/xcui.go:139","msg":"\nUsing testSuite app with unique id - APP10160571901691418245732242"}
+{"level":"info","time":"2023-08-09T12:13:20.795+0530","caller":"xcui/xcui.go:116","msg":"\nUnique Id for App - lt://APP1016035421691563402869443"}
+{"level":"debug","time":"2023-08-09T12:13:37.905+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 2bfd97a9-0bb8-438f-ae00-7e39d7b8fc22"}
+{"level":"debug","time":"2023-08-09T12:13:37.905+0530","caller":"core/lifecycle.go:374","msg":"User has provided ios/xcui as test type for the job with ID 2bfd97a9-0bb8-438f-ae00-7e39d7b8fc22"}
+{"level":"debug","time":"2023-08-09T12:13:37.909+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : D:\\projects\\XCUI-sharding\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-09T12:13:37.942+0530","caller":"storage/azure.go:53","msg":"Payload size: 2.08 kB"}
+{"level":"error","time":"2023-08-09T12:14:01.070+0530","caller":"core/lifecycle.go:568","msg":"2023-08-09T12:13:00+05:30    error    ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-09T12:14:01.071+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error ERR:HTTP:HOST     Facing problem in connecting with DISPATCHER_HOST :: https://api-hyperexecute.lambdatest.com/dispatcher - prod "}
+{"level":"debug","time":"2023-08-09T12:16:46.036+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.103 Max:0.2.103} "}
+{"level":"warn","time":"2023-08-09T12:16:46.040+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-09T12:16:46.040+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-09T12:16:49.145+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-09T12:16:49.145+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-09T12:16:49.145+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-09T12:16:49.145+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-09T12:16:49.994+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-09T12:16:49.995+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"error","time":"2023-08-09T12:16:49.995+0530","caller":"core/lifecycle.go:112","msg":"2023-08-09T12:16:45+05:30    error    \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Values in shard mappings cannot be empty    Error while loading hyperexecute configuration file"}
+{"level":"debug","time":"2023-08-09T12:16:49.995+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error \u001b[91mERR::YML::VAL\u001b[0m     Invalid yaml content: Values in shard mappings cannot be empty"}
+{"level":"debug","time":"2023-08-09T12:27:33.895+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.103 Max:0.2.103} "}
+{"level":"warn","time":"2023-08-09T12:27:33.901+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-08-09T12:27:33.902+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-08-09T12:27:36.147+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-09T12:27:36.147+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-09T12:27:36.148+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-09T12:27:36.149+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : xcuiHyperexecute.yaml"}
+{"level":"debug","time":"2023-08-09T12:27:37.069+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : D:\\projects\\XCUI-sharding"}
+{"level":"debug","time":"2023-08-09T12:27:37.070+0530","caller":"yamlconfigmanager/setup.go:776","msg":"valid discovery type provided"}
+{"level":"debug","time":"2023-08-09T12:27:37.070+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-09T12:27:37.071+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:27:37.071+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:27:37.072+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:27:37.072+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:27:37.072+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Framework:"}
+{"level":"info","time":"2023-08-09T12:27:37.073+0530","caller":"models/HypertestYamlConfig.go:363","msg":"    Name:    \u001b[36mios/xcui\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:27:37.073+0530","caller":"models/HypertestYamlConfig.go:395","msg":"    discoveryType:    \u001b[36mmethod\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:27:37.074+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-09T12:27:37.074+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-09T12:27:37.075+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-09T12:27:37.075+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-08-09T12:27:47.690+0530","caller":"xcui/xcui.go:116","msg":"\nUnique Id for App - lt://APP1016059481691564269858672"}
+{"level":"info","time":"2023-08-09T12:27:47.724+0530","caller":"xcui/xcui.go:135","msg":"\nUnique Id for TestSuite App - lt://APP1016035421691564269963511"}
+{"level":"debug","time":"2023-08-09T12:27:55.132+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 650fad5b-9479-4a45-b927-032bca8144b9"}
+{"level":"debug","time":"2023-08-09T12:27:55.132+0530","caller":"core/lifecycle.go:374","msg":"User has provided ios/xcui as test type for the job with ID 650fad5b-9479-4a45-b927-032bca8144b9"}
+{"level":"debug","time":"2023-08-09T12:27:55.136+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : D:\\projects\\XCUI-sharding\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-09T12:27:55.169+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.84 kB"}
+{"level":"info","time":"2023-08-09T12:28:15.676+0530","caller":"jobmanager/setup.go:129","msg":"Job 650fad5b-9479-4a45-b927-032bca8144b9 has started RUNNING"}
+{"level":"info","time":"2023-08-09T12:28:15.676+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=650fad5b-9479-4a45-b927-032bca8144b9\n"}
+{"level":"debug","time":"2023-08-09T12:28:15.678+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-08-09T12:28:15.679+0530","caller":"jobmanager/setup.go:149","msg":"Task id: c47b5f66-9014-4cd1-a307-b2427c427a91"}
+{"level":"debug","time":"2023-08-09T12:28:15.679+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: c47b5f66-9014-4cd1-a307-b2427c427a91"}
+{"level":"debug","time":"2023-08-09T12:28:15.680+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 4a0b1a9b-35e9-4b8b-bf50-0428e1be5f18"}
+{"level":"debug","time":"2023-08-09T12:28:15.681+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 4a0b1a9b-35e9-4b8b-bf50-0428e1be5f18"}
+{"level":"debug","time":"2023-08-09T12:28:15.681+0530","caller":"jobmanager/setup.go:149","msg":"Task id: b610b272-c8b0-4194-b7ec-9b24d5430b7e"}
+{"level":"debug","time":"2023-08-09T12:28:15.682+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: b610b272-c8b0-4194-b7ec-9b24d5430b7e"}
+{"level":"debug","time":"2023-08-09T12:28:15.683+0530","caller":"jobmanager/setup.go:149","msg":"Task id: be1b6ec5-5f17-4610-bbf5-5db5400fbb9c"}
+{"level":"debug","time":"2023-08-09T12:28:15.683+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: be1b6ec5-5f17-4610-bbf5-5db5400fbb9c"}
+{"level":"debug","time":"2023-08-09T12:28:15.684+0530","caller":"jobmanager/setup.go:149","msg":"Task id: d0bc34e9-55b4-40dd-ac66-07ea8ce28afc"}
+{"level":"debug","time":"2023-08-09T12:28:15.684+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: d0bc34e9-55b4-40dd-ac66-07ea8ce28afc"}
+{"level":"info","time":"2023-08-09T12:28:48.101+0530","caller":"terminal/terminal.go:185","msg":"✔ [5]  LambdaUiKitIOSUITestsLaunchTests/testLaunch (9s)\n"}
+{"level":"info","time":"2023-08-09T12:28:57.657+0530","caller":"terminal/terminal.go:185","msg":"✔ [2]  LambdaUiKitIOSUITests/testopenmfmlWebSiteOnBrowser (24s)\n"}
+{"level":"info","time":"2023-08-09T12:29:03.507+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  LambdaUiKitIOSUITests/testopenIfconfigWebSiteOnBrowser (29s)\n"}
+{"level":"info","time":"2023-08-09T12:29:06.020+0530","caller":"terminal/terminal.go:185","msg":"x [4]  LambdaUiKitIOSUITests/testverifyAppLaunch (31s)\n"}
+{"level":"info","time":"2023-08-09T12:29:19.448+0530","caller":"terminal/terminal.go:185","msg":"x [3]  LambdaUiKitIOSUITests/testTextButtonIsClicked (32s)\n"}
+{"level":"info","time":"2023-08-09T12:29:38.483+0530","caller":"terminal/terminal.go:185","msg":"x [4]  {retry 1} LambdaUiKitIOSUITests/testverifyAppLaunch (29s)\n"}
+{"level":"info","time":"2023-08-09T12:30:02.700+0530","caller":"terminal/terminal.go:185","msg":"x [3]  {retry 1} LambdaUiKitIOSUITests/testTextButtonIsClicked (30s)\n"}
+{"level":"info","time":"2023-08-09T12:30:09.238+0530","caller":"terminal/terminal.go:185","msg":"x [4]  {retry 2} LambdaUiKitIOSUITests/testverifyAppLaunch (29s)\n"}
+{"level":"info","time":"2023-08-09T12:30:44.361+0530","caller":"terminal/terminal.go:185","msg":"x [3]  {retry 2} LambdaUiKitIOSUITests/testTextButtonIsClicked (30s)\n"}
+{"level":"info","time":"2023-08-09T12:30:50.169+0530","caller":"jobmanager/setup.go:131","msg":"Job 650fad5b-9479-4a45-b927-032bca8144b9 has  FAILED "}
+{"level":"info","time":"2023-08-09T12:30:50.170+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=650fad5b-9479-4a45-b927-032bca8144b9\n"}
+{"level":"error","time":"2023-08-09T12:30:50.197+0530","caller":"jobmanager/setup.go:195","msg":"2023-08-09T12:27:32+05:30    error    ERR::JOB::STS     Job failed!"}
+{"level":"debug","time":"2023-08-09T12:30:50.200+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-08-09T12:30:50.200+0530","caller":"jobmanager/setup.go:210","msg":"\n\nJob status"}
+{"level":"info","time":"2023-08-09T12:30:50.202+0530","caller":"jobmanager/setup.go:220","msg":" ID: 650fad5b-9479-4a45-b927-032bca8144b9\n Status:  FAILED \n Remark: \n OrgID: 550422\n Created: 2023-08-09 06:57:57 +0000 UTC\n Updated: 2023-08-09 07:00:45 +0000 UTC\n global timeout: 90\n testsuite timeout: 90\n retry on failure: false\n start time: 2023-08-09 06:58:34 +0000 UTC\n end time: 2023-08-09 07:00:45 +0000 UTC\n duration: 2m11s"}
+{"level":"info","time":"2023-08-09T12:30:50.203+0530","caller":"jobmanager/setup.go:225","msg":"\n\nTask status\n"}
+{"level":"info","time":"2023-08-09T12:30:50.204+0530","caller":"jobmanager/setup.go:231","msg":" ID: c47b5f66-9014-4cd1-a307-b2427c427a91\n Status: completed\n Remark: passed\n Created: 2023-08-09 06:58:04 +0000 UTC\n Updated: 2023-08-09 06:59:04 +0000 UTC\n context: {\"_jobId\": \"650fad5b-9479-4a45-b927-032bca8144b9\", \"_taskId\": \"62fbc5d3-c47a-4540-ac21-f75f1f70c934\"}\n tunnel name: \n os: ios\n start time: 2023-08-09 06:58:35 +0000 UTC\n end time: 2023-08-09 06:59:04 +0000 UTC\n duration: 29s"}
+{"level":"info","time":"2023-08-09T12:30:50.205+0530","caller":"jobmanager/setup.go:236","msg":"\n"}
+{"level":"info","time":"2023-08-09T12:30:50.206+0530","caller":"jobmanager/setup.go:231","msg":" ID: 4a0b1a9b-35e9-4b8b-bf50-0428e1be5f18\n Status: completed\n Remark: passed\n Created: 2023-08-09 06:58:04 +0000 UTC\n Updated: 2023-08-09 06:58:58 +0000 UTC\n context: {\"_jobId\": \"650fad5b-9479-4a45-b927-032bca8144b9\", \"_taskId\": \"777a99ee-fded-4437-bba2-72b16fef9571\"}\n tunnel name: \n os: ios\n start time: 2023-08-09 06:58:34 +0000 UTC\n end time: 2023-08-09 06:58:58 +0000 UTC\n duration: 24s"}
+{"level":"info","time":"2023-08-09T12:30:50.207+0530","caller":"jobmanager/setup.go:236","msg":"\n"}
+{"level":"info","time":"2023-08-09T12:30:50.207+0530","caller":"jobmanager/setup.go:231","msg":" ID: b610b272-c8b0-4194-b7ec-9b24d5430b7e\n Status: failed\n Remark: failed\n Created: 2023-08-09 06:58:04 +0000 UTC\n Updated: 2023-08-09 07:00:45 +0000 UTC\n context: {\"_jobId\": \"650fad5b-9479-4a45-b927-032bca8144b9\", \"_taskId\": \"f1795d48-d4be-452d-a55b-7f7e8fc92793\"}\n tunnel name: \n os: ios\n start time: 2023-08-09 06:58:49 +0000 UTC\n end time: 2023-08-09 07:00:45 +0000 UTC\n duration: 1m56s"}
+{"level":"info","time":"2023-08-09T12:30:50.208+0530","caller":"jobmanager/setup.go:236","msg":"\n"}
+{"level":"info","time":"2023-08-09T12:30:50.209+0530","caller":"jobmanager/setup.go:231","msg":" ID: be1b6ec5-5f17-4610-bbf5-5db5400fbb9c\n Status: failed\n Remark: failed\n Created: 2023-08-09 06:58:04 +0000 UTC\n Updated: 2023-08-09 07:00:10 +0000 UTC\n context: {\"_jobId\": \"650fad5b-9479-4a45-b927-032bca8144b9\", \"_taskId\": \"8ae024d5-95c6-469e-a6e6-50c1dae85df9\"}\n tunnel name: \n os: ios\n start time: 2023-08-09 06:58:36 +0000 UTC\n end time: 2023-08-09 07:00:10 +0000 UTC\n duration: 1m34s"}
+{"level":"info","time":"2023-08-09T12:30:50.210+0530","caller":"jobmanager/setup.go:236","msg":"\n"}
+{"level":"info","time":"2023-08-09T12:30:50.211+0530","caller":"jobmanager/setup.go:231","msg":" ID: d0bc34e9-55b4-40dd-ac66-07ea8ce28afc\n Status: completed\n Remark: passed\n Created: 2023-08-09 06:58:04 +0000 UTC\n Updated: 2023-08-09 06:58:50 +0000 UTC\n context: {\"_jobId\": \"650fad5b-9479-4a45-b927-032bca8144b9\", \"_taskId\": \"9e6d6956-45d9-4178-b6fc-78219ebb9ad5\"}\n tunnel name: \n os: ios\n start time: 2023-08-09 06:58:41 +0000 UTC\n end time: 2023-08-09 06:58:50 +0000 UTC\n duration: 9s"}
+{"level":"info","time":"2023-08-09T12:30:50.211+0530","caller":"jobmanager/setup.go:236","msg":"\n"}
+{"level":"info","time":"2023-08-09T12:30:50.212+0530","caller":"core/lifecycle.go:607","msg":"taskId:b610b272-c8b0-4194-b7ec-9b24d5430b7e has failed with remark: failed\n"}
+{"level":"info","time":"2023-08-09T12:30:50.215+0530","caller":"core/lifecycle.go:607","msg":"taskId:be1b6ec5-5f17-4610-bbf5-5db5400fbb9c has failed with remark: failed\n"}
+{"level":"info","time":"2023-08-09T12:30:50.213+0530","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n FAILED \n"}
+{"level":"info","time":"2023-08-09T12:30:50.216+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  0s"}
+{"level":"info","time":"2023-08-09T12:30:50.217+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    2m11s"}
+{"level":"debug","time":"2023-08-09T12:30:50.215+0530","caller":"core/lifecycle.go:700","msg":"Context canceled"}
+{"level":"info","time":"2023-08-09T12:30:50.218+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          5"}
+{"level":"info","time":"2023-08-09T12:30:50.218+0530","caller":"core/lifecycle.go:703","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2023-08-09T12:30:50.218+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             4m32s"}
+{"level":"debug","time":"2023-08-09T12:30:50.219+0530","caller":"core/lifecycle.go:706","msg":"Quit requested from main goroutine...."}
+{"level":"info","time":"2023-08-09T12:30:50.220+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         5"}
+{"level":"debug","time":"2023-08-09T12:30:50.220+0530","caller":"core/lifecycle.go:707","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2023-08-09T12:30:50.221+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      0.00%"}
+{"level":"debug","time":"2023-08-09T12:30:50.221+0530","caller":"core/lifecycle.go:709","msg":"All goroutines exited"}
+{"level":"info","time":"2023-08-09T12:30:50.221+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"error","time":"2023-08-09T12:30:50.222+0530","caller":"core/lifecycle.go:711","msg":"2023-08-09T12:27:32+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2023-08-09T12:30:50.222+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            0.00%"}
+{"level":"info","time":"2023-08-09T12:30:50.224+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-08-09T12:30:50.223+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=650fad5b-9479-4a45-b927-032bca8144b9\n"}
+{"level":"info","time":"2023-08-09T12:30:50.224+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           60.00%"}
+{"level":"info","time":"2023-08-09T12:30:50.224+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         40.00%"}
+{"level":"debug","time":"2023-08-09T12:30:50.224+0530","caller":"cmd/bin.go:255","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-08-09T12:30:50.224+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error Failed tasks found."}
+{"level":"info","time":"2023-08-09T12:30:50.224+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}

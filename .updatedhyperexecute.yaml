@@ -1,0 +1,71 @@
+version: "0.2"
+user: akashg
+key: NwTHBCKHbxKOIYZJdRersjTbKSvOUrzLtkWeM38ghpyRC8Sixh
+testSuites: []
+preDirectives:
+    commands: []
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+runson: ios
+autosplit: true
+concurrency: 5
+testDiscoveryResult:
+    - LambdaUiKitIOSUITestsLaunchTests/testLaunch
+    - LambdaUiKitIOSUITests/testverifyAppLaunch
+    - LambdaUiKitIOSUITests/testTextButtonIsClicked
+    - LambdaUiKitIOSUITests/testopenmfmlWebSiteOnBrowser
+    - LambdaUiKitIOSUITests/testopenIfconfigWebSiteOnBrowser
+retryOnFailure: true
+maxRetries: 2
+jobID: 650fad5b-9479-4a45-b927-032bca8144b9
+codeDirectory: XCUI-sharding
+framework:
+    name: ios/xcui
+    flags: []
+    discoveryFlags: []
+    discoveryType: method
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: false
+    defaultReports: false
+    args:
+        appPath: LambdaUiKitIOS.ipa
+        testSuitePath: ProverbialTest.ipa
+        xcTestPlanPath: ""
+        shards:
+            mappings: []
+        filters:
+            attributes: []
+        devices:
+            - iPhone.*-14,iPhone.*-15
+        deviceSelectionStrategy: all
+        appId: lt://APP1016059481691564269858672
+        testSuiteAppId: lt://APP1016035421691564269963511
+        xcTestPlanId: ""
+        video: true
+        deviceLog: true
+        networkLog: true
+        buildName: XCUIT
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+    version: ""
+    downloadURL: ""
+cypress: false
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+testType: ios/xcui
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: true
+sourcePayload:
+    platform: realDevice
+collectLocalGitData: true
+dynamicAllocation: false
